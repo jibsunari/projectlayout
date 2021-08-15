@@ -1,0 +1,84 @@
+.header {
+    background: url(../image/dark.jpg);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(41, 194, 27);
+    padding: 10px;
+    margin-top: 5px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(8, 58, 223);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: rgb(209, 32, 32);
+    color: rgb(26, 209, 185);
+}
+#h1 {
+    background-color: #b4c6dc;
+    padding: 5px;
+}
+#h2 {
+    background-color: #1a6431;
+    padding: 5px;
+}
+#h3 {
+    background-color: #3225a1;
+    padding: 5px;
+}
+#p1 {
+    background-color: #2852da;
+    padding: 5px;
+}
+#p2 {
+    background-color: #dac581;
+    padding: 5px;
+}
+#p3 {
+    background-color: #d39f10;
+    padding: 5px;
+}
+.column {
+    float: left;
+    padding: 5px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    background-color: rgb(97, 15, 15);
+    padding: 10px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width:414px) {
+    .column {
+        width: 100%
+    }
+}
+img {
+    width: 230px;
+    height: 150px;
+}
